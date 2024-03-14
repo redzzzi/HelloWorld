@@ -27,4 +27,5 @@
 1. 원하는 파일들 `git commit` -> 근데 커밋을 합치고 싶다?
 2. `git log`
 3. 합치고 싶은 파일의 그 밑 깃커밋해시값(?)을 복사
-4. `git rebase -i <해시값>`
+4. `git rebase -i <해시값>`<br>
+➕ [`git rebase -i` 가지고 놀기](https://80000coding.oopy.io/75c6610b-6869-43d2-aa5d-1b211a20c388)
