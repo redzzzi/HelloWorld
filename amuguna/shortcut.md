@@ -20,6 +20,9 @@
 2. 모든 창을 동시에 닫으면서 편집한 파일들을 저장하지 않고 종료: ```:qa!```
 3. ```u``` 적용 취소하고 전으로 되돌아가기: ```ctrl``` + ```r```
 4. 파일 내부의 내용만 삭제하기: ```cat /dev/null > <파일명>```
+5. 아키텍쳐 확인: `uname -m`
+   ![image](https://github.com/redzzzi/HelloWorld/assets/127263392/ceba3cf8-e935-49cd-9d41-bcffe686a5e6)
+
 
 # shell
 1. 연관 검색어 찾기(?): ```tab```
