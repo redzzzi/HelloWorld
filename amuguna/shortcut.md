@@ -19,6 +19,10 @@
 1. 모든 창을 동시에 닫고 vi 종료: ```:qa```
 2. 모든 창을 동시에 닫으면서 편집한 파일들을 저장하지 않고 종료: ```:qa!```
 3. ```u``` 적용 취소하고 전으로 되돌아가기: ```ctrl``` + ```r```
+4. 파일 내부의 내용만 삭제하기: ```cat /dev/null > <파일명>```
+5. 아키텍쳐 확인: `uname -m`
+   ![image](https://github.com/redzzzi/HelloWorld/assets/127263392/ceba3cf8-e935-49cd-9d41-bcffe686a5e6)
+
 
 # shell
 1. 연관 검색어 찾기(?): ```tab```
@@ -27,4 +31,12 @@
 1. 원하는 파일들 `git commit` -> 근데 커밋을 합치고 싶다?
 2. `git log`
 3. 합치고 싶은 파일의 그 밑 깃커밋해시값(?)을 복사
-4. `git rebase -i <해시값>`
+4. `git rebase -i <해시값>`<br>
+➕ [`git rebase -i` 가지고 놀기](https://80000coding.oopy.io/75c6610b-6869-43d2-aa5d-1b211a20c388)
+
+# push 완료된 커밋 메시지 수정
+1. 위 과정
+2. `git rebase -i <해시값>`
+3. `pick` → `reword`로 바꾼 후 메시지 수정
+4. 또 수정
+5. `git push --force-with-lease origin`
