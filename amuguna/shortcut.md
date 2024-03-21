@@ -6,6 +6,7 @@
 # Ubuntu Command
 ## UFW
 1. UFW 활성화: ```sudo ufw enable```
+    - [에러 나면](https://superuser.com/questions/1775776/enabling-ufw-failed-with-ubuntu-from-wsl2)
 1. UFW 상태 확인: ```sudo ufw status verdose```
     - UFW: 다양한 리눅스 환경에서 작동되는 사용하기 쉬운 **방화벽 관리 프로그램**
 2. UFW 허용: ```sudo ufw allow <port>/<optional: protocal>```
