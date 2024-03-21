@@ -3,6 +3,19 @@
 - 최상단 페이지로 올라가기 : `g`
 - 최하단 페이지로 내려가기 : `G`
 
+# Ubuntu Command
+## UFW
+1. UFW 활성화: ```sudo ufw enable```
+1. UFW 상태 확인: ```sudo ufw status verdose```
+    - UFW: 다양한 리눅스 환경에서 작동되는 사용하기 쉬운 **방화벽 관리 프로그램**
+2. UFW 허용: ```sudo ufw allow <port>/<optional: protocal>```
+    - 예1: ssh 포트 22번 허용(TCP/UDP 22번 포트 모두 허용): ```sudo ufw allow 22```
+    - 예2: TCP 22번 포트만을 허용: ```sudo ufw allow 22/tcp```
+    - 예3: UDP 22번 포트만을 허용: ```sudo ufw allow 22/udp```
+3. UFW 거부: ```sudo ufw deny <port>/<optional: protocol>```
+4. 특정한 IP주소 허용: ```sudo ufw allow from <ip address>```
+
+
 # Vim & Lunar Vim
 ```lvim``` 접속
 1. 파일&폴더 바 열기/닫: ```space``` + ```e```
