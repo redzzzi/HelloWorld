@@ -7,6 +7,10 @@
 ## UFW
 1. UFW 활성화: ```sudo ufw enable```
     - [에러 나면](https://superuser.com/questions/1775776/enabling-ufw-failed-with-ubuntu-from-wsl2)
+    ![image](https://github.com/redzzzi/HelloWorld/assets/127263392/70c5cc30-5779-4b52-82c3-c6789965fd5e)
+    - 🥹해결...🥹
+    - 참고 .. ```readonly``` 파일이라 편집할 때 ```sudo vi <편집대상파일>```
+
 1. UFW 상태 확인: ```sudo ufw status verdose```
     - UFW: 다양한 리눅스 환경에서 작동되는 사용하기 쉬운 **방화벽 관리 프로그램**
 2. UFW 허용: ```sudo ufw allow <port>/<optional: protocal>```
